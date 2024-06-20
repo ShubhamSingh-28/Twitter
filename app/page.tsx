@@ -73,7 +73,13 @@ export default function Home() {
         </div>
       </div>
 
-      <div className=" col-span-6 border-r-[1px] border-l-[1px] border-gray-300 ">
+      <div className=" col-span-6 h-screen overflow-scroll border-r-[1px] scrollbar-hide border-l-[1px] border-gray-300 ">
+        <FeedCard/>
+        <FeedCard/>
+        <FeedCard/>
+        <FeedCard/>
+        <FeedCard/>
+        <FeedCard/>
         <FeedCard/>
         <FeedCard/>
         <FeedCard/>
